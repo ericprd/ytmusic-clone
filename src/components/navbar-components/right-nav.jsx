@@ -3,9 +3,9 @@ import { Cast } from "@mui/icons-material";
 export default function RightNav() {
   return (
     <div className='right-nav'>
-      <Cast className="cast-icon"/>
+      <Cast />
       <div className='user'>
-        <span>E</span>
+        <span>YT</span>
       </div>
     </div>
   );
