@@ -1,10 +1,12 @@
 import "./App.css";
-import Navbar from "./components/navbar";
+import Main from "./components/main";
+import Navbar from "./components/navbar/navbar";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#000", height: "100vh" }}>
+    <div>
       <Navbar />
+      <Main />
     </div>
   );
 }

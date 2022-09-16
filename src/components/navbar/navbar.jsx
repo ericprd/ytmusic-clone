@@ -1,7 +1,7 @@
 import LeftNav from "./navbar-components/left-nav";
 import CenterNav from "./navbar-components/center-nav";
 import RightNav from "./navbar-components/right-nav";
-import "../style/navbar.css";
+import "./navbar.css";
 
 export default function Navbar() {
   return (

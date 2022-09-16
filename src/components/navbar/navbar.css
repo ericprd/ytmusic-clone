@@ -3,13 +3,13 @@
   top: 0;
   min-width: 100%;
   padding: 10px;
-  background-color: #030303;
+  background-color: var(--main-color);
   border-bottom: 1px solid rgba(200, 200, 200, 0.2);
 }
 
 .nav,
 .nav a {
-  color: #fff;
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -50,14 +50,14 @@
 .mobile-mode span svg {
   width: 24px;
   height: 24px;
-  color: hsla(0, 100%, 100%, 0.5);
+  color: var(--grey-color);
   cursor: pointer;
 }
 
 .desktop-mode a:hover,
 .desktop-mode .search-menu:hover,
 .mobile-mode span:hover svg {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .right-nav svg {
@@ -104,7 +104,7 @@
 
   .desktop-mode a,
   .search-menu svg {
-    color: hsla(0, 100%, 100%, 0.5);
+    color: var(--grey-color);
   }
 
   .search-menu span {
@@ -144,17 +144,17 @@
 
   .search-menu span {
     display: inline-block;
-    color: hsla(0, 100%, 100%, 0.5);
+    color: var(--grey-color);
     cursor: pointer;
   }
 
   .search-menu:hover svg,
   .search-menu:hover span {
-    color: #fff;
+    color: var(--white-color);
   }
 
   .center-nav a {
-    color: hsla(0, 100%, 100%, 0.5);
+    color: var(--grey-color);
     text-decoration: none;
   }
 

@@ -1,0 +1,87 @@
+.section {
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.header {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header-title span {
+  display: block;
+  width: 100%;
+}
+
+.header-title span:first-child {
+  color: var(--grey-color);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.header-title span:last-child {
+  font-size: 24px;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.header-buttons span {
+  border: 1px solid var(--grey-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.header-buttons svg {
+  font-size: 12px;
+  color: var(--grey-color);
+}
+
+.contents {
+  display: grid;
+  grid-template-rows: repeat(4, 50px);
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.music-metadata {
+  display: flex;
+  min-width: 350px;
+  gap: 10px;
+}
+
+.music-metadata img {
+  max-width: 64px;
+  max-height: 64px;
+  object-fit: cover;
+}
+
+.music-description .music-title {
+  font-size: 18px;
+}
+
+.music-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.music-details svg {
+  font-size: 4px;
+}
+
+.music-details svg:first-child {
+  font-size: 18px;
+}
